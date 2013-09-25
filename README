@@ -1,7 +1,13 @@
 How to build the source code for Beaglebone black(BBB)
 
-1.Install toolchain in ubuntu 12.04
+1.Install toolchain in ubuntu 12.04 64bit
 apt-get install gcc-arm-linux-gnueabi
 
 2.Build uboot
+cd u-boot-2013.07 
 CROSS_COMPILE=arm-linux-gnueabi- make am335x_evm
+
+How to test the firmware
+
+3.Build all
+make
