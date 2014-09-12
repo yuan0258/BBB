@@ -9,5 +9,9 @@ CROSS_COMPILE=arm-linux-gnueabi- make am335x_evm
 
 How to test the firmware
 
-3.Build all
+3.Build all in root directory, the bin file will copy to image/
 make
+
+
+How to build kernel?
+http://elinux.org/Building_BBB_Kernel#Downloading_and_building_the_Linux_Kernel
